@@ -6,7 +6,7 @@ export default function About() {
       <p>
         <strong>BreatheEasy</strong> is an <span style={{color:"#7ecafc",fontWeight:700}}>open-source</span> web app for calm, guided mindful breathing.<br /><br />
         Source code:{" "}
-        <a href="https://github.com/muhammadmurtaza/breatheeasy" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/muhammadmurtaza/breathe-easy" target="_blank" rel="noopener noreferrer">
           GitHub Repo
         </a>
         <br /><br />
