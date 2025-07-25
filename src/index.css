@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', 'Roboto', Arial, sans-serif;
+  background: #131c3a;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+#root {
+  min-height: 100vh;
+  height: 100vh;
+}

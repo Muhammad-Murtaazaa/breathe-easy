@@ -1,0 +1,114 @@
+.navbar-outer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  z-index: 13;
+}
+
+.glass-navbar {
+  display: flex;
+  align-items: center;
+  width: 99vw;
+  max-width: 800px;
+  background: rgba(44, 85, 193, 0.3);
+  box-shadow: 0 10px 56px 0 #96dbff2f;
+  backdrop-filter: blur(22px) saturate(170%);
+  border-radius: 2.4rem;
+  border: 1.6px solid #57c5ff3e;
+  margin: 0.5rem auto 0rem auto;
+  overflow: hidden;
+  padding: 0.76rem 1.5rem;
+  position: relative;
+  z-index: 15;
+  gap: 32px;
+}
+
+.glass-navbar .nav-logo {
+  font-family: 'Manrope', 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 1.6rem;
+  color: #9deefe;
+  letter-spacing: 0.15em;
+  margin-right: 2.7rem;
+  user-select: none;
+  text-shadow: 0 2px 16px #9deefe20;
+}
+
+.glass-navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1.55rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.glass-navbar li {
+  font-size: 1.13rem;
+  letter-spacing: 0.04em;
+}
+.glass-navbar a {
+  color: #eafdff;
+  text-decoration: none;
+  font-weight: 700;
+  opacity: 1;
+  border-radius: 2em;
+  padding: 0.27em 1.29em;
+  background: rgba(255,255,255,0.10);
+  transition: background 0.17s, color 0.13s, box-shadow 0.13s;
+  font-family: inherit;
+  text-shadow: 0 2px 7px #000b1d55;
+}
+.glass-navbar a:hover,
+.glass-navbar a.active {
+  background: rgba(66,181,255,0.19);
+  color: #b9f2fe;
+  box-shadow: 0 2px 20px #30bcff3a;
+}
+
+@media (max-width: 700px) {
+  .glass-navbar {
+    display: none;
+  }
+}
+
+.mini-navbar {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .mini-navbar {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    left: 0; bottom: 0;
+    z-index: 300;
+    background: rgba(33,55,110,0.78);
+    backdrop-filter: blur(11px) saturate(180%);
+    border-top: 1.4px solid #68c5fd39;
+    box-shadow: 0 0 28px #23234644;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .mini-navbar a {
+    color: #eafdff;
+    font-size: 1.78em;
+    padding: 0.3em 0.6em;
+    border-radius: 1em;
+    background: none;
+    box-shadow: none;
+    margin: 0;
+    opacity: 0.9;
+    text-decoration: none;
+    transition: background 0.14s, color 0.14s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mini-navbar a.active,
+  .mini-navbar a:focus {
+    background: rgba(175,224,254,0.23);
+    color: #cdf9ff;
+    opacity: 1;
+  }
+}
