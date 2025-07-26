@@ -6,7 +6,7 @@
 
 ## ✨ Live Demo
 
-_(Add your live site link here, e.g. [breatheeasy.vercel.app](https://breatheeasy.vercel.app) or a screenshot)_
+[CLICK MEEE](https://easybreathing.netlify.app/)
 
 ---
 
@@ -119,7 +119,7 @@ src/
 
 Pull requests and issues welcome! If you have a feedback, suggestion, bug, or want to submit a custom pattern PR:
 
-- Open an [issue](https://github.com/your-github/breatheeasy/issues)  
+- Open an [issue](https://github.com/Muhammad-Murtaazaa/breathe-easy/issues)  
 - Fork and make a PR  
 - Or just star ⭐️ the repo if you enjoy it!
 
@@ -133,8 +133,7 @@ MIT — use, remix, and share.
 
 ## 💙 Author
 
-Made with love by [Your Name](https://your-portfolio-link.example)  
-Code on [GitHub](https://github.com/your-github/breatheeasy)
+Made with love by [Muhammad Murtaza](https://muhammadmurtaza.netlify.app/#home)  
 
 ---
 
