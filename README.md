@@ -67,11 +67,9 @@ cd breatheeasy
 npm install
 npm start
 Open http://localhost:3000 to view it in your browser.
-
-🧑‍💻 Folder Structure
-css
-Copy
-Edit
+```
+## 🧑‍💻 Folder Structure
+```
 src/
 ├── App.jsx
 ├── App.css
@@ -84,6 +82,7 @@ src/
 │   ├── About.jsx
 │   └── SupportUs.jsx
 └── AuroraCanvasBackground.jsx
+```
 🎨 Customization Tips
 Edit patterns.js:
 Add or change any preset patterns.
