@@ -42,7 +42,7 @@
 
 | Desktop | Mobile |
 |--------|--------|
-| ![desktop](assets/desktop-preview.png) | ![mobile](assets/mobile-preview.png) |
+| ![desktop](SS/DESKTOP.jpg) | ![mobile](SS/MOBILE.jpg) |
 
 ---
 
